@@ -15,3 +15,33 @@ body {
   background-color: #333;
   color: #ddd;
 }
+
+h1, h2 {
+	font-family: 'IM Fell DW Pica', serif;
+}
+
+p, blockquote {
+	font-family: 'Merriweather', serif;
+}
+
+blockquote + p::first-letter {
+	font-size: 200%;
+}
+
+hr + p::first-letter {
+	font-size: 200%;
+}
+/*
+blockquote {
+	font-style: italic;
+}
+*/
+cite {
+	font-family:'Merriweather', serif; 
+	font-weight: bold;
+}
+
+#header1 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
